@@ -34,7 +34,9 @@ File f= new File("F:\\Sahil\\Selenium_doc\\Files\\myExcel.xlsx");
 		}*/
 		
 		Row row0= sheet0.getRow(4);
+		System.out.println(row0);
 		Cell cellA= row0.getCell(4);
+		System.out.println(cellA);
 		Cell cellB= row0.getCell(5);
 		System.out.println(cellA+"..."+cellB);
 		fi.close();
