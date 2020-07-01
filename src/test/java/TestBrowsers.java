@@ -16,7 +16,7 @@ public class TestBrowsers {
 			driver= new ChromeDriver();
 			driver.get("http://localhost:8090/clear/");
 			Thread.sleep(2000);
-			driver.findElement(By.id("UID")).sendKeys("P2001");
+			driver.findElement(By.id("UI")).sendKeys("P2001");
 			driver.close();
 			
 		}
